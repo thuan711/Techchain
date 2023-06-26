@@ -1,0 +1,1 @@
+<h1>Sản phẩm trong loại {{id}}</h1>

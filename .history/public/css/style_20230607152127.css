@@ -1,0 +1,84 @@
+* { box-sizing: border-box; margin: 0; padding: 0;}
+#container { width: 1200px; margin: auto;}
+#container > header { background-color: darkcyan; height: 160px; position: relative;}
+#container > header > #logo {
+    position: absolute; top: 30px; left: 50px; width: 100px;
+}
+#container > header > #giohang {
+    position: absolute; bottom: 30px;right: 30px; width: 120px;
+    font-size: 20px; color: yellow; text-align: center;
+}
+
+#container > nav {
+    background-color: orange; height: 60px; 
+    display: flex; justify-content: center; align-items: center;
+}
+#container > nav > ul {
+    list-style: none; display: flex ; font-size: 1.2em; 
+}
+#container > nav > ul > li > a {
+    color: white; text-decoration: none; margin-right: 10px;
+}
+#container > nav > ul > li > a:hover {
+    color:aquamarine ; text-decoration: underline; font-weight: bold;
+}
+#container > footer {
+    margin: 20px 0; height: 90px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.5em;
+    background-color: darkcyan;
+    color:white;
+}
+.listsp > h2 {
+   text-align: center;
+   margin-top: 30px; 
+}
+.listsp #data {
+    display: grid; 
+    grid-template-columns:  auto auto auto auto;
+    gap: 20px;
+    grid-template-rows: 380px 380px;
+}
+.listsp #data > .sp {
+    text-align: center;
+    border: 1px solid black;
+}
+.listsp #data > .sp > h3{
+    color: darkcyan;
+    height:45px;
+    text-align: center;
+    padding: 10px;
+}
+.listsp #data > .sp >img{
+    max-width: 100%;
+    height: 250px;
+}
+.listsp #data > .sp > .gia{
+    font-size: 24px;
+    color: red;
+    margin: 15px 0;
+}
+.listsp #data > .sp > .btnchon{
+    width: 90px; height: 35px; font-size: 20px; color: aliceblue;
+    background-color: darkcyan;
+    border: none;
+}
+.listsp #data > .sp > .btnxem{
+    width: 90px; height: 35px; font-size: 20px; color: aliceblue;
+    background-color: orange;
+    border: none;
+}
+#doitac > h2 {
+    margin-top: 30px; text-align: center;
+}
+#doitac #data {
+    display: grid; 
+    grid-template-columns:  auto auto auto auto auto auto;
+    gap: 30px 20px;
+    
+}
+#doitac #data  img {
+    max-width: 100%; height: auto;
+    border: 1px solid darkblue;
+    border-radius: 50%;
+}
