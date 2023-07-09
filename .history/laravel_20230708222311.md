@@ -1,0 +1,4 @@
+- Query Builder: 
+    + Trình xây dựng truy vấn cơ sở dữ liệu của Laravel cung cấp một giao diện thuận tiện, trôi chảy và chạy các truy vấn cơ sở dữ liệu. Nó có thể được sử dụng để thực hiện hầu hết các hoạt động cơ sở dữ liệu trong ứng dụng của bạn và hoạt động hoàn hảo với tất cả các hệ thống cơ sở dữ liệu được được Laravel hỗ trợ. 
+    + Trình tạo truy vấn của Laravel sử dụng liên kết tham số PDO để bảo vệ ứng dụng của bạn khỏi các cuộc tấn công SQL injection. Không cần phải làm sạch hoặc vệ sinh các chuỗi được chuyển đến trình tạo truy vấn dưới dạng liên kết truy vấn.
+- Elequent: object-relational mapper (ORM) giúp tương tác với cơ sở dữ liệu trở nên thú vị hơn. Khi sử dụng Eloquent, mỗi bảng cơ sở dữ liệu có một "Mô hình" tương ứng sử dụng để tương tác với bảng đó. Ngoài việc truy xuất các bảng ghi từ bảng cơ sở dữ liệu, các mô hình Eloquent còn cho phép chèn, cập nhập và xóa các bảng ghi khỏi bảng.
